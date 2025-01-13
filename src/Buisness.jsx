@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client'
 
-function buisness() {
+const Buisness = () => {
     const [image, setImage] = useState('');
     const [name, setName] = useState('test');
     const [address, setAddress] = useState('test');
@@ -26,4 +26,5 @@ function buisness() {
         
         </>
     );
-}
+} 
+export default Buisness

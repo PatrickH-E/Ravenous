@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Buisness from './Buisness';
+import BuisnessList from './BuisnessList';
 
 const element = <h1>hello world</h1>
 
@@ -12,7 +13,8 @@ root.render(
   <React.StrictMode>
   <App />
   <Buisness />
-  
+  <BuisnessList />
+ 
 </React.StrictMode>
 );
 
